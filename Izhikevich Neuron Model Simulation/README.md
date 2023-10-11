@@ -14,4 +14,13 @@ The Izhikevich neuron model is a powerful and computationally efficient alternat
    ```
    du/dt = a * (b * V - u)
    ```
-##
+## Parameters:
+1. a: This parameter determines the time scale of the recovery variable 'u'. A larger 'a' leads to slower recovery.
+2. b: 'b' influences the sensitivity of the recovery variable 'u' to changes in the membrane potential 'V'. Higher 'b' values make 'u' respond more strongly to changes in 'V'.
+3. c: 'c' is the membrane potential reset value after the neuron spikes. When 'V' reaches this threshold, it is reset to 'c'.
+4. d: 'd' determines the after-spike reset of the recovery variable 'u'. It is the increment applied to 'u' after each spike.
+5. I: The input current 'I' represents external stimuli applied to the neuron. It can be used to control the neuron's behavior.
+And as we mentioned in parameters' description, There's a mechanism for each spike:
++ If v > 30 mV , Neuron Spikes
++ then [v = c and u = u + d]
+
