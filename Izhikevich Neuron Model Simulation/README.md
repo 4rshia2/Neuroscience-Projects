@@ -24,3 +24,11 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
 + If v > 30 mV , Neuron Spikes
 + then [v = c and u = u + d]
 
+## Key Neuronal Behavior via Izhikevich Simulation
+1. **Regular Spiking:**
+   **Description:** Regular spiking neurons exhibit a consistent and rhythmic firing pattern. They fire action potentials at regular intervals in response to input stimuli.
+   **Configs:**
+   + a = 0.02
+   + b = 0.2
+   + c = -65
+   + d = 6
