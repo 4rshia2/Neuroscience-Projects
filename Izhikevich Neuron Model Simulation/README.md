@@ -47,25 +47,25 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + I ≈ 24
 3. **Chattering:**
    
-   **Description:**
+   **Description:** Chattering neurons are characterized by their irregular and spiky firing pattern. They produce a series of rapid action potentials followed by a brief pause
    
    **Configs:**
    + 
 4. **Fast Spiking:**
    
-   **Description:**
+   **Description:** Fast spiking neurons fire action potentials at a high frequency with short interspike intervals. They are known for their rapid and precise responses to stimuli.
    
    **Configs:**
    + 
 5. **Low-Threshold Spiking:**
    
-   **Description:**
+   **Description:** 
    
    **Configs:**
    + 
-7. **Resonator:**
+6. **Resonator:**
  
-   **Description:**
+   **Description:** 
    
    **Configs:**
    + 
