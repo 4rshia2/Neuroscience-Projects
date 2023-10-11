@@ -35,7 +35,7 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + c = -65
    + d = 6
    + I ≈ 10
-3. **Intrinsically Bursting:**
+2. **Intrinsically Bursting:**
    
    **Description:** Intrinsically bursting neurons display a burst of action potentials followed by a period of quiescence in response to stimuli. This behavior is characterized by intermittent firing.
    
@@ -45,3 +45,28 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + c = -55
    + d = 4
    + I ≈ 24
+3. **Chattering:**
+   
+   **Description:**
+   
+   **Configs:**
+   + 
+4. **Fast Spiking:**
+   
+   **Description:**
+   
+   **Configs:**
+   + 
+5. **Low-Threshold Spiking:**
+   
+   **Description:**
+   
+   **Configs:**
+   + 
+7. **Resonator:**
+ 
+   **Description:**
+   
+   **Configs:**
+   + 
+   
