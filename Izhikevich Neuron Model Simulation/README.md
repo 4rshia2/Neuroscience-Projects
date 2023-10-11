@@ -26,9 +26,22 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
 
 ## Key Neuronal Behavior via Izhikevich Simulation
 1. **Regular Spiking:**
+   
    **Description:** Regular spiking neurons exhibit a consistent and rhythmic firing pattern. They fire action potentials at regular intervals in response to input stimuli.
+   
    **Configs:**
    + a = 0.02
    + b = 0.2
    + c = -65
    + d = 6
+   + I ≈ 10
+3. **Intrinsically Bursting:**
+   
+   **Description:** Intrinsically bursting neurons display a burst of action potentials followed by a period of quiescence in response to stimuli. This behavior is characterized by intermittent firing.
+   
+   **Configs:**
+   + a = 0.02
+   + b = 0.2
+   + c = -55
+   + d = 4
+   + I ≈ 24
