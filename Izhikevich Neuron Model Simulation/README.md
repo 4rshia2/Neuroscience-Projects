@@ -24,7 +24,7 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
 + If v > 30 mV , Neuron Spikes
 + then [v = c and u = u + d]
 
-## Key Neuronal Behavior via Izhikevich Simulation
+## Key Neuronal Behavior via Izhikevich Model Simulation
 1. **Regular Spiking:**
    
    **Description:** Regular spiking neurons exhibit a consistent and rhythmic firing pattern. They fire action potentials at regular intervals in response to input stimuli.
@@ -83,3 +83,6 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + c = -65
    + d = 2
    
+## **Conclusion:**
+In conclusion, this README has provided an in-depth overview of the Izhikevich neuron model, an efficient and versatile tool for simulating a wide range of neuronal behaviors. This model, born out of a desire to balance computational speed with biological realism, stands as a powerful alternative to the Hodgkin and Huxley model. By adjusting key parameters, you can replicate behaviors such as regular spiking, intrinsically bursting, chattering, fast spiking, low-threshold spiking, and resonator behaviors.
+Additional information and simulation results from the conducted simulations are available in the report file, including detailed charts and detailed Persian Explanation. For more information, please read the report file.
