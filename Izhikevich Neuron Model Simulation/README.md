@@ -47,7 +47,7 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + I ≈ 24
 3. **Chattering:**
    
-   **Description:** Chattering neurons are characterized by their irregular and spiky firing pattern. They produce a series of rapid action potentials followed by a brief pause
+   **Description:** Chattering neurons are characterized by their irregular and spiky firing pattern. They produce a series of rapid action potentials followed by a brief pause.
    
    **Configs:**
    + 
@@ -59,13 +59,13 @@ And as we mentioned in parameters' description, There's a mechanism for each spi
    + 
 5. **Low-Threshold Spiking:**
    
-   **Description:** 
+   **Description:** Low-threshold spiking neurons have a lower firing threshold compared to regular spiking neurons. They tend to fire in response to weak stimuli.
    
    **Configs:**
    + 
 6. **Resonator:**
  
-   **Description:** 
+   **Description:** Resonator neurons respond preferentially to a specific range of input frequencies. They exhibit a resonance behavior, where they are more likely to fire at particular input frequencies.
    
    **Configs:**
    + 
