@@ -5,3 +5,5 @@ The result is a **3D tensor** where:
   * The first dimension represents the time intervals.
   * The second and third dimensions indicate the spatial position of the pixels within the image.
   * Each element in the tensor is either 0 or 1. A value of 1 denotes that the corresponding pixel has spiked at that specific moment, while 0 signifies no spike.
+
+Detailed information are available in report file.
