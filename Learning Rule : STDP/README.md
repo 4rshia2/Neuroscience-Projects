@@ -5,8 +5,8 @@ Flat-STDP (Flat Spike-Timing-Dependent Plasticity) is a synaptic learning rule i
 Mathematical equation for Flat-STDP:
 Δw = A_pre * A_post * f(t_diff)
 where Δw is the change in synaptic strength, A_pre is the presynaptic activity, A_post is the postsynaptic activity, and f(t_diff) is a function of the time difference between the spikes.
-# IMPLEMENTATION DETAILS:
+# IMPLEMENTATION DETAILS
 * **Pattern:** This class generates random binary (0 or 1) numbers in a matrix using a Poisson distribution. It determines, at each time step, which neurons will spike. The first dimension of the matrix represents the current time step, while the second dimension represents the neurons under consideration.
 * **Local variables:** behavior for local variables and trace computation in Flat-STDP mathematical equation
-
-
+# RESULTS
+As you track the process of weight changes over time, you will observe that certain neurons are actively learning, while the plasticity of others is decreasing, mirroring the behavior observed in nature. Some neurons effectively acquire new information, while others do not exhibit significant changes. This is the outcome of the Flat STDP rule in the code.
