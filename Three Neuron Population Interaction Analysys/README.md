@@ -1,1 +1,2 @@
-
+# Overview:
+In this project, we will have three neuronal populations: two excitatory populations and one inhibitory population. These neurons will be created using the Izhikevich neuron model. We will connect them in various ways, and for each population, we will consider different spiking behaviors such as regular spiking, fast spiking, chattering, and more. Then, we will analyze their activity through raster plots and examine the applied current for each population at different time points.Additional information and simulation results and analysys from the conducted simulations are available in the report file. For detailed information, please read the report file.
