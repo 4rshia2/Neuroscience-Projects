@@ -1,1 +1,2 @@
-
+# Overview
+In this project, we aim to extract common features from input images. As is well-known, Spike-Timing-Dependent Plasticity (STDP) is a common method for achieving this. To accomplish this, we have employed a spiking neural network. In the first layer, synaptic connections to the second layer apply STDP and convolution using a Difference of Gaussians (DoG) filter. In the second layer, synaptic connections to the third layer apply max pooling. Consequently, we anticipate that certain neurons will learn specific features.
